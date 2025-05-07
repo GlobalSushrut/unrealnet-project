@@ -1,0 +1,9 @@
+# Ignore Git repositories inside subdirectories
+unrealnet-core/.git/
+unrealnet-infra/.git/
+
+# Common files to ignore
+*.log
+*.tmp
+*.temp
+.DS_Store

@@ -1,0 +1,68 @@
+Scenario,Metric,Baseline,With Adaptation,Improvement (%)
+congestion,Latency (ms),128.81,168.44,-30.76
+congestion,Bandwidth (Kbps),1805.19,3783.54,109.59
+congestion,Packet Loss (%),2.15,5.34,-148.47
+congestion,Jitter (ms),16.96,19.31,-13.86
+congestion,Transfer Time (ms),51641.45,65863.32,-27.54
+congestion,Resilience Score,88.69,84.80,-4.38
+congestion,Transfer Efficiency,26.79,34.07,27.16
+wireless_interference,Latency (ms),75.70,147.17,-94.42
+wireless_interference,Bandwidth (Kbps),3939.75,3997.50,1.47
+wireless_interference,Packet Loss (%),3.02,5.00,-65.62
+wireless_interference,Jitter (ms),15.80,18.59,-17.69
+wireless_interference,Transfer Time (ms),34370.49,58724.52,-70.86
+wireless_interference,Resilience Score,90.72,86.03,-5.17
+wireless_interference,Transfer Efficiency,35.15,34.99,-0.47
+asymmetric,Latency (ms),84.98,156.01,-83.60
+asymmetric,Bandwidth (Kbps),4580.61,4129.94,-9.84
+asymmetric,Packet Loss (%),1.60,4.92,-206.91
+asymmetric,Jitter (ms),11.24,17.96,-59.88
+asymmetric,Transfer Time (ms),31815.86,60606.87,-90.49
+asymmetric,Resilience Score,92.43,85.91,-7.05
+asymmetric,Transfer Efficiency,38.00,35.54,-6.49
+satellite,Latency (ms),168.03,171.10,-1.83
+satellite,Bandwidth (Kbps),3618.03,3867.75,6.90
+satellite,Packet Loss (%),4.61,5.30,-14.96
+satellite,Jitter (ms),18.07,19.03,-5.28
+satellite,Transfer Time (ms),39676.08,57060.37,-43.82
+satellite,Resilience Score,85.55,84.80,-0.88
+satellite,Transfer Efficiency,33.55,34.41,2.57
+ideal,Latency (ms),143.63,160.35,-11.64
+ideal,Bandwidth (Kbps),4533.74,4245.28,-6.36
+ideal,Packet Loss (%),3.90,4.95,-26.86
+ideal,Jitter (ms),15.26,17.75,-16.27
+ideal,Transfer Time (ms),34702.42,53668.44,-54.65
+ideal,Resilience Score,87.73,85.79,-2.21
+ideal,Transfer Efficiency,37.36,35.99,-3.65
+extreme,Latency (ms),173.28,172.86,0.24
+extreme,Bandwidth (Kbps),4024.95,4031.91,0.17
+extreme,Packet Loss (%),5.73,5.71,0.31
+extreme,Jitter (ms),19.60,19.55,0.22
+extreme,Transfer Time (ms),67603.47,67440.91,0.24
+extreme,Resilience Score,84.33,84.37,0.05
+extreme,Transfer Efficiency,34.95,34.99,0.09
+mobile_handover,Latency (ms),80.08,142.73,-78.24
+mobile_handover,Bandwidth (Kbps),3381.74,3811.04,12.69
+mobile_handover,Packet Loss (%),5.23,5.56,-6.30
+mobile_handover,Jitter (ms),19.78,19.66,0.61
+mobile_handover,Transfer Time (ms),44527.63,60042.39,-34.84
+mobile_handover,Resilience Score,88.25,85.61,-2.99
+mobile_handover,Transfer Efficiency,32.48,34.13,5.08
+international,Latency (ms),153.06,163.60,-6.89
+international,Bandwidth (Kbps),4539.13,4267.01,-5.99
+international,Packet Loss (%),3.49,4.69,-34.26
+international,Jitter (ms),14.35,17.16,-19.54
+international,Transfer Time (ms),32537.74,51398.24,-57.97
+international,Resilience Score,87.83,85.96,-2.12
+international,Transfer Efficiency,37.46,36.13,-3.54
+
+Protocol Usage Statistics
+Protocol,Usage Count,Avg Improvement (%),Best Improvement (%),Worst Improvement (%),Most Common Scenario
+
+Overall Performance Improvement
+Overall Improvement (%),-28.59
+Latency Reduction (%),-38.39
+Bandwidth Improvement (%),13.58
+Packet Loss Reduction (%),-62.88
+Transfer Time Reduction (%),-47.49
+Resilience Improvement (%),-3.09
