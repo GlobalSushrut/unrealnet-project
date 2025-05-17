@@ -1,9 +1,32 @@
-# Ignore Git repositories inside subdirectories
-unrealnet-core/.git/
-unrealnet-infra/.git/
+# Ignore all files by default
+*
 
-# Common files to ignore
-*.log
-*.tmp
-*.temp
-.DS_Store
+# Allow markdown documentation
+!*.md
+
+# Allow the license file
+!LICENSE.md
+
+# Allow specific documentation directories
+!docs/
+!docs/**/*.md
+!whitepaper/
+!whitepaper/*.md
+
+# Explicitly block any code files that might be in allowed directories
+**/*.cpp
+**/*.hpp
+**/*.h
+**/*.c
+**/*.o
+**/*.a
+**/*.so
+**/*.dylib
+**/*.exe
+**/*.out
+**/*.app
+
+# Build outputs
+build/
+bin/
+lib/
